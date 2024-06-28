@@ -6,13 +6,13 @@ const Header=()=>{
         <div className='nav-bar'>
             <ul className="header">
                 <li>
-                    <Link to="/" className='removeLine'>Homeeee</Link>
+                    <Link to="/" className='removeLine'>Home</Link>
                 </li>
                 <li>
-                    <Link to="/about" className='removeLine'>Aboutttt</Link>
+                    <Link to="/about" className='removeLine'>About</Link>
                 </li>
                 <li>
-                    <Link to="/contact" className='removeLine'>Contactttt</Link>
+                    <Link to="/contact" className='removeLine'>Contact</Link>
                 </li>
             </ul>
         </div>
