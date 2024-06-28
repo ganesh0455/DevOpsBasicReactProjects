@@ -94,8 +94,8 @@ class ProductCardDetails extends Component {
     }
 
     render() {
-        const { productData,quantity,similarProductsData,cartList,totalPrice } = this.state;
-        const { availability, brand, description, id, price, rating, title, totalReviews, imageUrl } = productData;
+        const { productData,quantity,totalPrice } = this.state;
+        const { availability, brand, description, price, rating, title, totalReviews, imageUrl } = productData;
         // console.log(cartList);
         return (
             <div className="product-details-success-view">

@@ -1,10 +1,10 @@
 import "./index.css";
 import { Link } from "react-router-dom";
-import ProductCardDetails from "../ProductCardDetails";
+// import ProductCardDetails from "../ProductCardDetails";
 
 const ProductCard = (props) => {
     // console.log("props=",props);
-  const { productData,addCartItem } = props;
+  const { productData } = props;
   const { id,title, brand, imageUrl, rating, price } = productData;
 
   return (

@@ -1,6 +1,6 @@
 import { Component } from "react";
 import BlogItem from "../BlogItem";
-import Loader from "react-loader-spinner";
+// import Loader from "react-loader-spinner";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import "./index.css"
 

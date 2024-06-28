@@ -29,12 +29,12 @@ const initialUserDetailsList = [
   },
 ];
 
-const SingleUser = {
-  uniqueNo: 1,
-  imageUrl: "https://assets.ccbp.in/frontend/react-js/esther-howard-img.png",
-  name: "Esther Howard",
-  role: "Software Developer",
-};
+// const SingleUser = {
+//   uniqueNo: 1,
+//   imageUrl: "https://assets.ccbp.in/frontend/react-js/esther-howard-img.png",
+//   name: "Esther Howard",
+//   role: "Software Developer",
+// };
 
 // const props={
 //   SingleUserDetails:{
