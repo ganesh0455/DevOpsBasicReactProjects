@@ -30,6 +30,7 @@ import ProductCardDetails from './Components/Athentication/ProductCardDetails';
 import ContactListPractice from './Components/Contacts Practice';
 import CommentsApp from './Components/Comments App';
 import HelloName from './Components/FunctionalComponents/Hello';
+import Todo from './Components/Todo';
 
 const App=()=>( 
     <BrowserRouter>
@@ -58,6 +59,7 @@ const App=()=>(
             <Route exact path="/ContactPractice" component={ContactListPractice} />
             <Route exact path="/CommentsApp" component={CommentsApp} />
             <Route exct path="/FName" component={HelloName} />
+            <Route exct path="/task" component={Todo} />
             <Route exact component={Notfound} />
           </Switch>
     </BrowserRouter>

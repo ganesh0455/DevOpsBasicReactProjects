@@ -1,0 +1,10 @@
+.todo-main-container{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.todo-name{
+    padding: 3px 0px;
+    margin-bottom: 5px;
+}

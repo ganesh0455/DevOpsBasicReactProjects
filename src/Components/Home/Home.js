@@ -13,6 +13,11 @@ const Home=()=>{
                 <tbody>
                     <tr>
                         <td>
+                            <Link to='/task' className="removeLine">Todo</Link>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             <Link to='/Counter' className="removeLine">Counter</Link>
                         </td>
                     </tr>
