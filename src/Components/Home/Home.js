@@ -7,7 +7,7 @@ const Home=()=>{
             <table>
                 <thead>
                     <tr>
-                        <th>Projects (Practice and Test React with small examples)</th>
+                        <th>Projects (Practice React with small examples)</th>
                     </tr>
                 </thead>
                 <tbody>
